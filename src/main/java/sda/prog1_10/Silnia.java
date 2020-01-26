@@ -9,7 +9,6 @@ public class Silnia {
 		while(arg > 1) {
 			silnia *= arg--;
 		}
-
 		return silnia;
 	}
 
