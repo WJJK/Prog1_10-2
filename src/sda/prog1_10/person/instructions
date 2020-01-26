@@ -1,7 +1,0 @@
-dopisać enum opisujący płeć: Sex
-
-dopisać w enumie pola : nazwa skrócona (shortName),
-tłumaczenie polskie (polishName),
-tłumaczenie angielskie (englishName), numer porządkowy (index)
-
-zastąpić enumem pola płci w klasach Polish i Person
