@@ -67,4 +67,9 @@ public class Account {
 	public int hashCode() {
 		return Objects.hash(accountNumber);
 	}
+
+	@Override
+	public String toString() {
+		return "accountNumber=" + accountNumber;
+	}
 }

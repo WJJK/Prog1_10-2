@@ -36,6 +36,9 @@ public class TestBank {
 
 		System.out.println("Migration done.");
 		bank.printCustomerList(true);
+
+		System.out.println("================All accounts================");
+		bank.printAllBankAccounts();
 	}
 
 }
