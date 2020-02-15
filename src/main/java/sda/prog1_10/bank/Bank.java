@@ -14,7 +14,7 @@ public class Bank {
 	}
 
 	public String getNextAccountNumber(){
-		String newId = "IBAN"+accountNumber.toString();
+		String newId = "IBAN "+accountNumber.toString();
 		accountNumber++;
 		return newId;
 	}
