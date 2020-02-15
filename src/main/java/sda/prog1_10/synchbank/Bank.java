@@ -1,4 +1,4 @@
-package sda.prog1_10.bank;
+package sda.prog1_10.synchbank;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -184,10 +184,7 @@ public class Bank {
 				}
 		);
 		System.out.println("=============================");
-		customers.stream()
-				.map(Customer::getAccounts)
-				.flatMap(x -> x.stream())
-				.forEach(System.out::println);
+		customers.stream().map(Customer::getAccounts).flatMap(x -> x.stream()).forEach(System.out::println);
 	}
 
 }
